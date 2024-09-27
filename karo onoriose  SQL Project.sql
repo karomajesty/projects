@@ -1,6 +1,6 @@
 -- Question 1
 --Retrieve information about the products with colour values except null, red, silver/black, white and list price between
---£75 and £750. Rename the column StandardCost to Price. Also, sort the results in descending order by list price.
+--Â£75 and Â£750. Rename the column StandardCost to Price. Also, sort the results in descending order by list price.
 
 --ANSWER :
 
@@ -25,7 +25,7 @@ SELECT GENDER,BIRTHDATE,HIREDATE FROM HumanResources.Employee
 WHERE GENDER = 'F' AND BIRTHDATE BETWEEN '1972' AND '1975' AND HIREDATE BETWEEN '2001' AND '2002';
 
 --Question 3
---Create a list of 10 most expensive products that have a product number beginning with ‘BK’. Include only the product
+--Create a list of 10 most expensive products that have a product number beginning with â€˜BKâ€™. Include only the product
 --ID, Name and colour.
 
 --ANSWER;
@@ -68,7 +68,7 @@ WHERE DaysToManufacture >= 3;
 
 --Question 6
 --Create a list of product segmentation by defining criteria that places each item in a predefined segment as follows. If
---price gets less than £200 then low value. If price is between £201 and £750 then mid value. If between £750 and £1250
+--price gets less than Â£200 then low value. If price is between Â£201 and Â£750 then mid value. If between Â£750 and Â£1250
 --then mid to high value else higher value. Filter the results only for black, silver and red color products.
 
 --ANSWER;
@@ -242,7 +242,7 @@ END) - STANDARDCOST AS MARGIN
 FROM Production.Product;
 
 --Question 16 
---Create a view to find out the top 5 most expensive products for each colour.
+--Create a view to find out the top 5 most expensive products forÂ eachÂ colour.
 
 -- Answer;
 
